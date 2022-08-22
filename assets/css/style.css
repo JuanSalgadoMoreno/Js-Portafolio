@@ -215,17 +215,19 @@ color:#040b14;
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: bold;
   line-height: 55px;
   color: #ffffff;
+  margin-left:70px;
 }
 #hero .hero-container h2 {
-  margin: 0 0 10px 0;
-  font-size: px;
-  font-weight: 700;
+  margin: 0 30px 10px 0;
+  font-size: 50px;
+  font-weight: bold;
   line-height: 55px;
   color: #ffffff;
+  margin-left: 70px;
 
 }
 
@@ -234,6 +236,7 @@ color:#040b14;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  margin-left: 70px;
 }
 #hero p span {
   color: #fff;
@@ -241,6 +244,15 @@ color:#040b14;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+div.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
 
 @media (min-width: 1024px) {
   #hero {
@@ -326,6 +338,9 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.color {
+  color: #149ddd;
 }
 
 /*--------------------------------------------------------------
