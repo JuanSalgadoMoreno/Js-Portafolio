@@ -343,10 +343,19 @@ section {
   color: #149ddd;
 }
 
-div p.resume {
+.txt-orange {
   text-align: justify;
-  color:#b56624;
 }
+.img-shadow {
+  box-shadow:
+  0px 4.2px 4.3px rgba(0, 0, 0, 0.055),
+  0px 12.4px 12px rgba(0, 0, 0, 0.079),
+  0px 31.5px 28.9px rgba(0, 0, 0, 0.098),
+  0px 84px 96px rgba(0, 0, 0, 0.12)
+;
+border-radius: 2px;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
